@@ -2,26 +2,9 @@
 
     --Black: #171A1F;
     --Blue: #C5D5D8;
-    --Tipografy: Roboto;
+    --Tipografy: 'Roboto', sans-serif;
+    --Tipografy2: 'Sedgwick Ave';
 
-}
-
-.menu {
-width: 100%;
-background: linear-gradient(to bottom,rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
-height: 65px;
-
-
-}
-
-#Fondo {
-    
-    height: 750px;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-    
 }
 
 body {
@@ -32,3 +15,56 @@ body {
     margin-bottom: 0px;
     margin-left: 0px;
 }
+
+
+.menu {
+width: 100%;
+background: linear-gradient(to bottom,rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+height: 65px;
+
+}
+
+#logo{
+float : left;
+margin-left: 30px;
+margin-top: 10px;
+height:45px ;
+width:45px ;
+}
+
+nav{
+    width: 45%;
+    float: right;
+    margin-top: 20px;    
+}
+    
+a {
+	font-family: var(--Tipografy);
+    
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 15px;
+    border-right: 1px solid white;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+
+	}
+#galeria{
+
+    border-right: 0px solid;
+
+}
+
+#Fondo {
+    
+    height: 660px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    
+}
+
+
