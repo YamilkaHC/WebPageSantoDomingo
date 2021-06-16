@@ -14,26 +14,27 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    
 }
 
 
 .menu {
 width: 100%;
-background: linear-gradient(to bottom,rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+background: linear-gradient(to bottom,rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.6),  rgba(37, 37, 37, 0.5), rgba(37, 37, 37, 0.4), rgba(37, 37, 37, 0.3));
 height: 65px;
 
 }
 
 #logo{
 float : left;
-margin-left: 30px;
-margin-top: 10px;
-height:45px ;
-width:45px ;
+margin-left: 35px;
+margin-top: 8px;
+height:47px ;
+width:47px ;
 }
 
 nav{
-    width: 45%;
+    width: 40rem;
     float: right;
     margin-top: 20px;    
 }
@@ -44,8 +45,8 @@ a {
     color: white;
     text-decoration: none;
     margin-top: 30px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
     height: 15px;
     border-right: 1px solid white;
     text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
@@ -59,7 +60,7 @@ a {
 
 #Fondo {
     
-    height: 660px;
+    
     width: 100%;
     position: absolute;
     top: 0px;
