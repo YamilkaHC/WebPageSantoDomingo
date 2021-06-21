@@ -1,7 +1,99 @@
 :root{
 
-    --Black: #171A1F;
+    --Black: #16191E;
     --Blue: #C5D5D8;
-    --Tipografy: Roboto;
+   /*QUITAR*/ --Tipografy: 'Roboto', sans-serif;
+    /*QUITAR*/--Tipografy2: 'Sedgwick Ave';
 
+}
+body {
+    
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: var(--Tipografy);
+    
+}
+
+h1{
+
+font-size: 2rem;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+
+
+
+#section1{
+position: relative;
+color: white;
+background-color: #16191E;
+min-height: 900px;
+width: 100%;
+
+}
+
+#colum1{
+    width: 40%;
+    background-color: inherit;
+    float: left;
+    position: absolute;
+    padding: 4em 4em 4em 6em;
+    text-shadow: 1px 1px black;
+     
+}
+
+
+#Threephotos{
+    
+    
+    background-color: inherit;
+    float: right;
+    width: 35%;
+    position: absolute;
+    right: 0px;
+    padding: 4em 6em 4em 4em;
+
+ 
+}
+
+#section2{
+    position: relative;
+    min-height: 900px;
+    width: 100%;
+    padding-left: 6em;
+    
+    }
+.caja{
+ 
+    float: left;
+    position: relative;
+    width: 80%;
+    padding: 3em 1em 1em 0em;
+    min-height: 300px;
+    
+}
+.actividadphoto{
+position: absolute;
+width: 275px;
+float: left;
+height: 225px;
+
+}
+
+.actividadtexto{
+    position: absolute;
+    width: 60%;
+    left: 300px;
+    padding:2em 4em 0em 4em ;
+    float: right;
+    border: 1px solid #16191E ;
 }
