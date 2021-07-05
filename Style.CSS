@@ -5,3 +5,18 @@
     --Tipografy: Roboto;
 
 }
+
+footer{
+    color: white;
+    background-color: var(--Black);
+    font-family: var(--Tipografy);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 1;
+font-size: 15px;
+padding: 2% 0 2% 0;
+
+
+
+}
