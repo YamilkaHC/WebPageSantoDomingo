@@ -116,36 +116,3 @@ background-color: var(--Black);
         border-radius: 7px;
       }
 
-/*
-#section2{
-    position: relative;
-    min-height: 900px;
-    width: 100%;
-    padding-left: 6em;
-    
-    }
-.caja{
- 
-    float: left;
-    position: relative;
-    width: 80%;
-    padding: 3em 1em 1em 0em;
-    min-height: 300px;
-    
-}*/
-/*.actividadphoto{
-position: absolute;
-width: 275px;
-float: left;
-height: 225px;
-
-}*/
-/*
-.actividadtexto{
-    position: absolute;
-    width: 60%;
-    left: 300px;
-    padding:2em 4em 0em 4em ;
-    float: right;
-    border: 1px solid #16191E ;
-}*/
